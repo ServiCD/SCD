@@ -1,0 +1,1636 @@
+/*-----------*/
+/*-- Fonts --*/
+/*-----------*/
+
+@font-face {
+	font-family:"OpenSans_Regular";
+	src:url(../../../../Gal_FONTS_Compartidas/OpenSans_Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family:"OpenSans_Bold";
+	src:url(../../../../Gal_FONTS_Compartidas/OpenSans_Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family:"Roboto_Regular";
+	src:url(../../../../Gal_FONTS_Compartidas/Roboto_Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family:"Roboto_Bold";
+	src:url(../../../../Gal_FONTS_Compartidas/Roboto_Bold.ttf) format("truetype");
+}
+
+/*---------------------------*/
+/*-- Propiedades Generales --*/
+/*---------------------------*/
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	height:100%;
+	background-color:#FFFFFF;
+}
+
+.Vinculo {
+	outline:none;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+/*--------------------------------*/
+/*-- Proporción de Unidades rem --*/
+/*--------------------------------*/
+
+html {
+	height:100%;
+	font-size:10px;
+}
+
+/*-------------*/
+/*-- Galería --*/
+/*-------------*/
+
+.Galeria {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+/*------------*/
+/*-- Header --*/
+/*------------*/
+
+.Header {
+	width:100%;
+}
+
+.LogoContenedor {
+	width:100%;
+	height:10.3rem;
+	background:#04367D;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+}
+
+.Logo {
+	width:27.2rem;
+	height:auto;
+	display:block;
+}
+
+.TituloContenedor {
+	width:100%;
+	height:3.8rem;
+	background:#3366AF;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:relative;
+}
+
+.Titulo {
+	font-family:Roboto_Bold;
+	font-size:1.5rem;
+	color:#FFFFFF;
+	letter-spacing:0.15rem;
+}
+
+.BotonMenu {
+	width:4.2rem;
+	height:3.8rem;
+	background:#25559A;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:absolute;
+	left:0;
+}
+
+.MenuIcono {
+	width:1rem;
+	height:auto;
+	display:block;
+	opacity:1;
+	transition:opacity linear 0.15s;
+}
+
+/*--------------------*/
+/*-- Menú y Galería --*/
+/*--------------------*/
+
+.MenuGaleriaContenedor {
+	width:100%;
+	position:relative;
+}
+
+/*----------*/
+/*-- Menú --*/
+/*----------*/
+
+.MenuContenedor {
+	padding:2rem 0 6.6rem;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:left linear 0.3s;
+	display:block;
+}
+
+.Menu {
+	background:#343A40;
+	border-radius:0 1rem 1rem 0;
+	padding:0 1rem 1rem 1rem;
+}
+
+/*---------------------------------*/
+/*-- Sección SERVICIO Y ATENCIÓN --*/
+/*---------------------------------*/
+
+.SeccionContenedor {
+	padding-top:1rem;
+}
+
+.Seccion {
+	background:#3366AF;
+	border-radius:0.5rem;
+	font-family:OpenSans_Bold;
+	font-size:1.4rem;
+	color:#FFFFFF;
+	letter-spacing:-0.05rem;
+	display:flex;
+	align-items:center;
+	flex-shrink:0;
+	padding:0.45rem 2rem 0.45rem 1.4rem;
+}
+
+.BotonContenedor {
+	padding-top:0.4rem;
+}
+
+.RecuadroDato {
+	background:#343A40;
+	border-radius:0.5rem;
+	display:flex;
+	justify-content:flex-start;
+	flex-shrink:0;
+}
+
+.BotonDato {
+	background:#343A40;
+	border-radius:0.5rem;
+	display:flex;
+	justify-content:flex-start;
+	flex-shrink:0;
+	transition:all linear 0.07s;
+}
+
+.DatoTexto {
+	font-family:OpenSans_Regular;
+	font-size:1.5rem;
+	color:#C2C7D0;
+	display:flex;
+	align-items:center;
+	flex-shrink:0;
+	padding:0.9rem 2rem 0.9rem 0;
+	transition:all linear 0.1s;
+}
+
+.IconoContenedor {
+	width:4.8rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+}
+
+.IconoColor {
+	fill:#C2C7D0;
+	transition:all linear 0.1s;
+}
+
+.EmpresaIcono {
+	width:2rem;
+	height:auto;
+	fill:#C2C7D0;
+	display:block;
+}
+
+.ContactoIcono {
+	width:1.4rem;
+	height:auto;
+	fill:#C2C7D0;
+	display:block;
+}
+
+.TelefonoIcono {
+	width:1.8rem;
+	height:auto;
+	display:block;
+}
+
+.MovilIcono {
+	width:1.2rem;
+	height:auto;
+	display:block;
+}
+
+.UbicacionIcono {
+	width:1.4rem;
+	height:auto;
+	display:block;
+}
+
+.WebIcono {
+	width:2rem;
+	height:auto;
+	display:block;
+}
+
+/*--------------------------*/
+/*-- Sección SIGUENOS EN: --*/
+/*--------------------------*/
+
+.BotonRedSocial {
+	background:#343A40;
+	border-radius:0.5rem;
+	display:flex;
+	justify-content:flex-start;
+	flex-shrink:0;
+	transition:all linear 0.07s;
+}
+
+.RedSocialIconoContenedor {
+	width:4.8rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	padding:1rem 0;
+}
+
+.RedSocialLetrasContenedor {
+	display:flex;
+	align-items:center;
+	flex-shrink:0;
+	padding-right:2rem;
+}
+
+.FacebookIcono {
+	width:0.8rem;
+	height:auto;
+	display:block;
+}
+
+.FacebookLetras {
+	width:7.9rem;
+	height:auto;
+	display:block;
+}
+
+.TwitterIcono {
+	width:2rem;
+	height:auto;
+	display:block;
+}
+
+.TwitterLetras {
+	width:7.4rem;
+	height:auto;
+	display:block;
+}
+
+.LinkedInIcono {
+	width:1.8062rem;
+	height:auto;
+	display:block;
+}
+
+.LinkedInLetras {
+	width:7.8rem;
+	height:auto;
+	display:block;
+}
+
+.InstagramIcono {
+	width:1.8rem;
+	height:auto;
+	display:block;
+}
+
+.InstagramLetras {
+	width:7.8rem;
+	height:auto;
+	display:block;
+}
+
+.YouTubeIcono {
+	width:2.5812rem;
+	height:auto;
+	display:block;
+}
+
+.YouTubeLetras {
+	width:5.7rem;
+	height:auto;
+	display:block;
+}
+
+/*-----------------------*/
+/*-- Sección COMPARTIR --*/
+/*-----------------------*/
+
+.BotonesContenedorPrincipal {
+	height:4.2rem;
+	position:relative;
+	transition:all linear 0.2s;
+}
+
+.BotonCompartirContenedor {
+	padding-top:0.4rem;
+	position:relative;
+	z-index:3;
+}
+
+.BotonCompartir {
+	background:#343A40;
+	border-radius:0.5rem;
+	display:flex;
+	justify-content:flex-start;
+	flex-shrink:0;
+	transition:all linear 0.07s;
+}
+
+.CompartirIcono {
+	width:1.8rem;
+	height:auto;
+	display:block;
+}
+
+.BotonesContenedorPrimario {
+	padding-top:0.4rem;
+	display:none;
+	position:absolute;
+	bottom:0;
+	z-index:2;
+	transition:all linear 0.2s;
+}
+
+.BotonesContenedorSecundario {
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	flex-shrink:0;
+}
+
+.BotonRedSocialCompartir {
+	width:3.8rem;
+	height:3.8rem;
+	background:#494E53;
+	border-radius:0.5rem;
+	list-style:none;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	transition:all linear 0.07s;
+}
+
+.Separacion {
+	width:0.4rem;
+	height:3.8rem;
+	list-style:none;
+}
+
+.CompartirFacebookIcono {
+	width:0.8rem;
+	height:auto;
+	display:block;
+}
+
+.CompartirTwitterIcono {
+	width:2rem;
+	height:auto;
+	display:block;
+}
+
+.CompartirLinkedInIcono {
+	width:1.8062rem;
+	height:auto;
+	display:block;
+}
+
+.CompartirWhatsAppIcono {
+	width:2rem;
+	height:auto;
+	display:block;
+}
+
+/*-------------------------*/
+/*-- Galería de Imágenes --*/
+/*-------------------------*/
+
+.GaleriaImagenesContenedor {
+	width:100%;
+	display:flex;
+	justify-content:center;
+	flex-shrink:0;
+	padding-bottom:4.6rem;
+}
+
+.GaleriaImagenes {
+	width:100%;
+	max-width:1920px;
+	display:flex;
+	justify-content:flex-start;
+	align-items:stretch;
+	flex-wrap:wrap;
+	flex-shrink:0;
+	padding:1.4rem;
+}
+
+.ImagenIconoContenedor {
+	width:14.285%;
+	height:18rem;
+	list-style:none;
+	padding:1.4rem;
+	transition:all ease-out 0.25s;
+}
+
+.ImagenIcono {
+	width:100%;
+	height:100%;
+	border:0.6rem solid #CCCDCE;
+	display:block;
+}
+
+/*------------*/
+/*-- Footer --*/
+/*------------*/
+
+.FooterContenedor {
+	width:100%;
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index:4;
+}
+
+.Footer {
+	width:100%;
+	background:#363B41;
+	display:flex;
+	justify-content:flex-end;
+	flex-shrink:0;
+}
+
+.FooterTextoContenedor {
+	display:flex;
+	flex-direction:column;
+	flex-shrink:0;
+	padding-right:0.9rem;
+}
+
+.FooterTextoSuperior {
+	font-family:Roboto_Regular;
+	font-size:1rem;
+	color:#FFFFFF;
+	letter-spacing:0.0375rem;
+	padding:0.8rem 0 0.1rem 0;
+}
+
+.FooterTextoInferior {
+	font-family:Roboto_Bold;
+	font-size:1.3rem;
+	color:#FFFFFF;
+	letter-spacing:0.05625rem;
+	display:flex;
+	justify-content:flex-end;
+	flex-shrink:0;
+}
+
+.ServiCentroDigitalLogoContenedor {
+	padding:0.8rem 1rem 0.8rem 0;
+}
+
+.ServiCentroDigitalLogo {
+	width:10.2rem;
+	height:auto;
+	display:block;
+}
+
+/*--------------*/
+/*-- LightBox --*/
+/*--------------*/
+
+.DimensionVentana {
+	width:100%;
+	height:100%;
+	background:#FFFFFF;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:fixed;
+	z-index:0;
+}
+
+.CapaOscura {
+	width:100%;
+	height:100%;
+	background:#000000;
+	opacity:0;
+	display:none;
+	position:fixed;
+	z-index:7;
+	transition:all linear 0.15s;
+}
+
+.LightBoxContenedor {
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+.LightBox {
+	width:100%;
+	height:100%;
+	background:rgba(16,17,19,0.9);
+	padding:3rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:fixed;
+	z-index:5;
+}
+
+.ImagenBotonesContenedor {
+	width:auto;
+	height:auto;
+	opacity:1;
+	display:flex;
+	align-items:center;
+	flex-shrink:0;
+	position:relative;
+	z-index:6;
+	transition:opacity linear 0.2s;
+}
+
+.ImagenContenedor {
+	width:auto;
+	height:auto;
+	border:1.2rem solid #FFFFFF;
+}
+
+.Imagen {
+	width:auto;
+	height:50rem;
+	display:block;
+}
+
+.BotonMaximizarMinimizar {
+	width:4rem;
+	height:4rem;
+	background:rgba(16,17,19,0.5);
+	border-radius:0.4rem;
+	opacity:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:absolute;
+	top:2.5rem;
+	left:2.5rem;
+	z-index:11;
+}
+
+.BotonCerrar {
+	width:4rem;
+	height:4rem;
+	background:rgba(16,17,19,0.5);
+	border-radius:0.4rem;
+	opacity:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:absolute;
+	top:2.5rem;
+	right:2.5rem;
+	z-index:12;
+}
+
+.BotonRetroceder {
+	width:5rem;
+	height:8rem;
+	background:rgba(16,17,19,0.5);
+	border-radius:0.6rem;
+	opacity:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:absolute;
+	left:2.7rem;
+	z-index:9;
+}
+
+.BotonAvanzar {
+	width:5rem;
+	height:8rem;
+	background:rgba(16,17,19,0.5);
+	border-radius:0.6rem;
+	opacity:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-shrink:0;
+	position:absolute;
+	right:2.7rem;
+	z-index:10;
+}
+
+.MaximizarMinimizarIcono {
+	width:2rem;
+	height:auto;
+	display:block;
+}
+
+.CerrarIcono {
+	width:2rem;
+	height:auto;
+	display:block;
+}
+
+.RetrocederIcono {
+	width:1.8rem;
+	height:auto;
+	display:block;
+}
+
+.AvanzarIcono {
+	width:1.8rem;
+	height:auto;
+	display:block;
+}
+
+/*-------------------*/
+/*-- MEDIA QUERIES --*/
+/*-------------------*/
+
+@media only screen and (min-width:1920px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:10px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:1900px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:1920px;
+		padding:1.4rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:14.285%;
+		height:18rem;
+		padding:1.4rem;
+	}
+
+	.ImagenIcono {
+		border:0.6rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:1.2rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:50rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:4rem;
+		height:4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.5rem;
+		left:2.5rem;
+	}
+
+	.BotonCerrar {
+		width:4rem;
+		height:4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.5rem;
+		right:2.5rem;
+	}
+
+	.BotonRetroceder {
+		width:5rem;
+		height:8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2.7rem;
+	}
+
+	.BotonAvanzar {
+		width:5rem;
+		height:8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2.7rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:1919px) and (min-width:1600px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:10px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:1580px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:1600px;
+		padding:1.2rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:16.666%;
+		height:17.5rem;
+		padding:1.2rem;
+	}
+
+	.ImagenIcono {
+		border:0.5rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:1.2rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:45rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.8rem;
+		height:3.8rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.3rem;
+		left:2.3rem;
+	}
+
+	.BotonCerrar {
+		width:3.8rem;
+		height:3.8rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.3rem;
+		right:2.3rem;
+	}
+
+	.BotonRetroceder {
+		width:4.8rem;
+		height:7.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2.5rem;
+	}
+
+	.BotonAvanzar {
+		width:4.8rem;
+		height:7.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2.5rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.7rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.7rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:1599px) and (min-width:1280px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:10px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:1260px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:1280px;
+		padding:1.1rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:20%;
+		height:16.8rem;
+		padding:1.1rem;
+	}
+
+	.ImagenIcono {
+		border:0.5rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:1.1rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:40rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.8rem;
+		height:3.8rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.3rem;
+		left:2.3rem;
+	}
+
+	.BotonCerrar {
+		width:3.8rem;
+		height:3.8rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.3rem;
+		right:2.3rem;
+	}
+
+	.BotonRetroceder {
+		width:4.8rem;
+		height:7.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2.5rem;
+	}
+
+	.BotonAvanzar {
+		width:4.8rem;
+		height:7.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2.5rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.7rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.7rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:1279px) and (min-width:1024px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:9.4px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:1005px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:1024px;
+		padding:1rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:20%;
+		height:14.3rem;
+		padding:1rem;
+	}
+
+	.ImagenIcono {
+		border:0.6rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:1.1rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:40rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.8rem;
+		height:3.8rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.3rem;
+		left:2.3rem;
+	}
+
+	.BotonCerrar {
+		width:3.8rem;
+		height:3.8rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:2.3rem;
+		right:2.3rem;
+	}
+
+	.BotonRetroceder {
+		width:4.8rem;
+		height:7.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2.5rem;
+	}
+
+	.BotonAvanzar {
+		width:4.8rem;
+		height:7.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2.5rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:2rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.7rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.7rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:1023px) and (min-width:800px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:8.8px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:782px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:800px;
+		padding:0.9rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:25%;
+		height:14.9rem;
+		padding:0.9rem;
+	}
+
+	.ImagenIcono {
+		border:0.5rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:1rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:32rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.4rem;
+		height:3.4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.8rem;
+		left:1.8rem;
+	}
+
+	.BotonCerrar {
+		width:3.4rem;
+		height:3.4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.8rem;
+		right:1.8rem;
+	}
+
+	.BotonRetroceder {
+		width:4.2rem;
+		height:7.2rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2rem;
+	}
+
+	.BotonAvanzar {
+		width:4.2rem;
+		height:7.2rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.5rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.5rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:799px) and (min-width:600px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:9.4px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:581px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:600px;
+		padding:0.9rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:50%;
+		height:20.7rem;
+		padding:0.9rem;
+	}
+
+	.ImagenIcono {
+		border:0.6rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:1rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:32rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.4rem;
+		height:3.4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.8rem;
+		left:1.8rem;
+	}
+
+	.BotonCerrar {
+		width:3.4rem;
+		height:3.4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.8rem;
+		right:1.8rem;
+	}
+
+	.BotonRetroceder {
+		width:4.2rem;
+		height:7.2rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2rem;
+	}
+
+	.BotonAvanzar {
+		width:4.2rem;
+		height:7.2rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.5rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.5rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:599px) and (min-width:480px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:8.8px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:462px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:480px;
+		padding:1rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:50%;
+		height:17.5rem;
+		padding:1rem;
+	}
+
+	.ImagenIcono {
+		border:0.6rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:0.9rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:29rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.4rem;
+		height:3.4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.8rem;
+		left:1.8rem;
+	}
+
+	.BotonCerrar {
+		width:3.4rem;
+		height:3.4rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.8rem;
+		right:1.8rem;
+	}
+
+	.BotonRetroceder {
+		width:4.2rem;
+		height:7.2rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:2rem;
+	}
+
+	.BotonAvanzar {
+		width:4.2rem;
+		height:7.2rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:2rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:1.8rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.5rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.5rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:479px) and (min-width:320px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:7.6px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:305px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:320px;
+		padding:0.8rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:50%;
+		height:13.5rem;
+		padding:0.8rem;
+	}
+
+	.ImagenIcono {
+		border:0.6rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:0.7rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:23rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.2rem;
+		height:3.2rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.4rem;
+		left:1.4rem;
+	}
+
+	.BotonCerrar {
+		width:3.2rem;
+		height:3.2rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.4rem;
+		right:1.4rem;
+	}
+
+	.BotonRetroceder {
+		width:3.8rem;
+		height:6.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:1.6rem;
+	}
+
+	.BotonAvanzar {
+		width:3.8rem;
+		height:6.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:1.6rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:1.6rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:1.6rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.4rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.4rem;
+		height:auto;
+	}
+}
+
+@media only screen and (max-width:319px) and (min-width:240px) {
+
+	/*--------------------------------*/
+	/*-- Proporción de Unidades rem --*/
+	/*--------------------------------*/
+
+	html {
+		font-size:5.7px;
+	}
+
+	/*----------*/
+	/*-- Menú --*/
+	/*----------*/
+
+	.Menu {
+		max-width:229px;
+	}
+
+	/*-------------------------*/
+	/*-- Galería de Imágenes --*/
+	/*-------------------------*/
+
+	.GaleriaImagenes {
+		max-width:240px;
+		padding:0.7rem;
+	}
+
+	.ImagenIconoContenedor {
+		width:50%;
+		height:13.6rem;
+		padding:0.7rem;
+	}
+
+	.ImagenIcono {
+		border:0.6rem solid #CCCDCE;
+	}
+
+	/*--------------*/
+	/*-- LightBox --*/
+	/*--------------*/
+
+	.ImagenContenedor {
+		border:0.8rem solid #FFFFFF;
+	}
+
+	.Imagen {
+		width:auto;
+		height:23rem;
+	}
+
+	.BotonMaximizarMinimizar {
+		width:3.2rem;
+		height:3.2rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.4rem;
+		left:1.4rem;
+	}
+
+	.BotonCerrar {
+		width:3.2rem;
+		height:3.2rem;
+		border-radius:0.4rem;
+		position:absolute;
+		top:1.4rem;
+		right:1.4rem;
+	}
+
+	.BotonRetroceder {
+		width:3.8rem;
+		height:6.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		left:1.6rem;
+	}
+
+	.BotonAvanzar {
+		width:3.8rem;
+		height:6.8rem;
+		border-radius:0.6rem;
+		position:absolute;
+		right:1.6rem;
+	}
+
+	.MaximizarMinimizarIcono {
+		width:1.6rem;
+		height:auto;
+	}
+
+	.CerrarIcono {
+		width:1.6rem;
+		height:auto;
+	}
+
+	.RetrocederIcono {
+		width:1.4rem;
+		height:auto;
+	}
+
+	.AvanzarIcono {
+		width:1.4rem;
+		height:auto;
+	}
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18">
+	<defs>
+		<style>
+			.cls-1 {
+				fill: #fff;
+				fill-rule: evenodd;
+			}
+		</style>
+	</defs>
+	<path id="Menu_Contraer_Icono" class="cls-1" d="M123.692,106L116,115l7.692,9L126,121.545,120.615,115,126,108.454Z" transform="translate(-116 -106)"/>
+</svg>
