@@ -1,5 +1,0 @@
-src="http://ServiCentroDigital.com/Servs/Sal_Gto/ZAGON/Sign/IMGS/
-src="https://servicd.github.io/SCD/Servs/Sal_Gto/ZAGON/Sign/IMGS/
-
-href="http://ServiCentroDigital.com/Servs/Sal_Gto/ZAGON/Gal/
-href="https://servicd.github.io/SCD/Servs/Sal_Gto/ZAGON/Gal/
