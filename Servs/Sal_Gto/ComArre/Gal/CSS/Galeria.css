@@ -18,6 +18,11 @@
 }
 
 @font-face {
+	font-family:"Roboto_Medium";
+	src:url(../../../../Gal_FONTS_Compartidas/Roboto_Medium.ttf) format("truetype");
+}
+
+@font-face {
 	font-family:"Roboto_Bold";
 	src:url(../../../../Gal_FONTS_Compartidas/Roboto_Bold.ttf) format("truetype");
 }
@@ -83,7 +88,7 @@ html {
 }
 
 .Logo {
-	width:27.2rem;
+	width:28.8rem;
 	height:auto;
 	display:block;
 }
@@ -435,6 +440,38 @@ html {
 	width:2rem;
 	height:auto;
 	display:block;
+}
+
+/*---------------*/
+/*-- SERVICIOS --*/
+/*---------------*/
+
+.Servicios {
+	padding:2rem 2.4rem 0.6rem;
+}
+
+.ServiciosContenedor {
+	width:100%;
+	background:#04367D;
+	border-radius:1rem 1rem 0 0;
+	font-family:Roboto_Bold;
+	font-size:1.6rem;
+	text-align:justify;
+	letter-spacing:0.1rem;
+	color:#FFFFFF;
+	padding:1rem 2rem;
+}
+
+.ServiciosDescripcion {
+	width:100%;
+	background:#3366AF;
+	border-radius:0 0 1rem 1rem;
+	font-family:Roboto_Medium;
+	font-size:1.5rem;
+	text-align:justify;
+	letter-spacing:0.05rem;
+	color:#FFFFFF;
+	padding:1.3rem 2rem 1.4rem;
 }
 
 /*-------------------------*/
