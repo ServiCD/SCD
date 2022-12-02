@@ -291,11 +291,7 @@ $(document).ready(function() {
 	})
 
 	$("#WhatsAppCompartir").click(function() {
-		if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-			open_window("whatsapp://send?text=" + URLGaleria,"WhatsApp");
-		} else {
-			open_window("https://web.whatsapp.com/send?text=" + URLGaleria,"WhatsApp");
-		}
+		open_window("https://api.whatsapp.com/send?text=" + URLGaleria,"WhatsApp");
 	})
 
 	function open_window(url,name) {

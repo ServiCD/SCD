@@ -481,6 +481,9 @@ html {
 
 .FooterContenedor {
 	width:100%;
+	background:#363B41;
+	display:flex;
+	justify-content:flex-end;
 	position:fixed;
 	bottom:0;
 	right:0;
@@ -488,11 +491,11 @@ html {
 }
 
 .Footer {
-	width:100%;
-	background:#363B41;
 	display:flex;
-	justify-content:flex-end;
-	flex-shrink:0;
+}
+
+.FooterVinculo {
+	display:flex;
 }
 
 .FooterTextoContenedor {
